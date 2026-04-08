@@ -1,6 +1,5 @@
 # Active Directory Home Lab Deployment (VirtualBox)
 
----
 
 ## Overview
 
@@ -11,7 +10,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 - Client Machine (Windows 10)
 - Services: DNS, DHCP, NAT, Active Directory
 
----
 
 ## Objectives
 
@@ -22,7 +20,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 - Automate user provisioning using PowerShell
 - Simulate real-world enterprise domain environments
 
----
 
 ## Network Architecture
 
@@ -45,7 +42,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 - Receives IP via DHCP
 - Authenticates against domain
 
----
 
 ## Implementation
 
@@ -59,7 +55,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 
 ![VM Setup](vm-setup.png)
 
----
 
 ### 2. Domain Controller Configuration
 
@@ -74,7 +69,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 
 ![Network Config](network-config.png)
 
----
 
 ### 3. Active Directory Deployment
 
@@ -87,7 +81,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 
 ![AD Setup](ad-setup.png)
 
----
 
 ### 4. NAT & Routing Configuration
 
@@ -96,7 +89,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 
 ![NAT Setup](nat.png)
 
----
 
 ### 5. DHCP Configuration
 
@@ -109,7 +101,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 
 ![DHCP](dhcp.png)
 
----
 
 ### 6. Automated User Provisioning (PowerShell)
 
@@ -123,7 +114,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 
 ![Users](ad-users.png)
 
----
 
 ### 7. Client Machine Configuration
 
@@ -134,7 +124,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 
 ![IPConfig](ipconfig.png)
 
----
 
 ### 8. Domain Join & Authentication
 
@@ -144,7 +133,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 
 ![Domain Join](domain-join.png)
 
----
 
 ## Validation & Testing
 
@@ -155,7 +143,6 @@ This project involves designing and deploying a **simulated enterprise Active Di
 -  Domain login successful  
 -  Users visible in Active Directory  
 
----
 
 ## Security & Operational Insights
 
@@ -165,7 +152,7 @@ This project involves designing and deploying a **simulated enterprise Active Di
 - NAT allows secure internal network isolation
 - Weak password practices pose risks
 
----
+
 
 ## Challenges & Troubleshooting
 
@@ -174,16 +161,14 @@ This project involves designing and deploying a **simulated enterprise Active Di
 - PowerShell execution policy restrictions
 - Multiple VM restarts required
 
----
 
 ## Lessons Learned
 
 - AD environments depend heavily on correct networking
 - DNS + DHCP + AD must work together
-- Automation is essential for scalability
-- Troubleshooting is a key skill in infrastructure
 
----
+
+
 
 ## Future Improvements
 
@@ -193,11 +178,10 @@ This project involves designing and deploying a **simulated enterprise Active Di
 - Simulate attack scenarios
 - Expand network with more clients
 
----
 
 ## Conclusion
 
-This lab demonstrates deployment of a **functional enterprise Active Directory environment**, including identity management, networking, and domain-based authentication. It provides foundational knowledge applicable to real-world corporate infrastructure.
+This lab demonstrates deployment of a **functional enterprise Active Directory environment**, including identity management, networking, and domain-based authentication. It helped me to understand how Active Directory enables workplaces to manage users and grant permissions and control access..
 
 
 
