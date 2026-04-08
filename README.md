@@ -6,3 +6,5 @@ Active Directory Home Lab
 - Client Machine (Windows 10)
 - DNS, DHCP, NAT configuration
 - 1000+ users created via PowerShell
+
+[View Full Lab Writeup](active-directory-home-lab/)
